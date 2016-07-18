@@ -74,3 +74,11 @@ Chirp at
 Enter chirp text
 >
 ```
+
+# References
+
+## How to get started
+
+1. You can use `input()` and `print()` to show prompts and read user input.
+1. You know how to use [`open()`, `readline()` and `write()`](https://docs.python.org/3.3/tutorial/inputoutput.html#reading-and-writing-files) to maniuplate data in text files.
+1. You can write conditional logic with `if`
