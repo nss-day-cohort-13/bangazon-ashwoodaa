@@ -31,6 +31,7 @@ Enter screen name
 Which user is chriping?
 1. Tweedleedee
 2. BiffBoffin
+...
 >
 ```
 
@@ -54,6 +55,7 @@ Selecting an individual chirp takes you to that chirp's comment thread.
 Tweedleedee: Anybody know a good Thai restaraunt in the area?
 Fuzzy: Smiling Elephant is really good
 BiffBoffin: The pad krapow is amazing!
+...
 1. Reply
 2. Back
 >
