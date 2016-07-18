@@ -35,6 +35,7 @@ Which user is chriping?
 ```
 
 ### View Chirps
+Chirps are separated into public and private chirps.  Only the two users involved in a private chirp can see it in their Private Chirps section.
 ```bash
 << Private Chirps >>
 1. BiffBoffin: Hey, you up for ping...
@@ -45,14 +46,29 @@ Which user is chriping?
 5. Fuzzy: Do NOT try the mega ultra...
 6. Velton32: You guys have got to s...
 7. more...
+8. Main Menu
+>
+```
+Selecting an individual chirp takes you to that chirp's comment thread.
+```bash
+Tweedleedee: Anybody know a good Thai restaraunt in the area?
+Fuzzy: Smiling Elephant is really good
+BiffBoffin: The pad krapow is amazing!
+1. Reply
+2. Back
+>
 ```
 
+
 ### New Chirp
+Users can chirp publicly or they can start a private chirp with another user.
 ```bash
 Chirp at
 1. Public
 2. BiffBoffin
 3. Lara_keet
+...
+9. Cancel
 >
 
 Enter chirp text
