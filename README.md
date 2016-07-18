@@ -84,3 +84,10 @@ Enter chirp text
 1. You can use `input()` and `print()` to show prompts and read user input.
 1. You know how to use [`open()`, `readline()` and `write()`](https://docs.python.org/3.3/tutorial/inputoutput.html#reading-and-writing-files) to maniuplate data in text files.
 1. You can write conditional logic with `if`
+
+Start with the basics
+
+1. Show the main menu and read the user's choice with an `input()`.
+1. Based on the user's choice, `print()` their choice, i.e. "You chose to make a new chirp."
+1. Create the logic for each of the conditions to recieve further user input & display other menus.
+1. Once all user input is received, perform the appropriate file action (reading from or writing to the chirps file), and direct the user back to the appropriate menu.
