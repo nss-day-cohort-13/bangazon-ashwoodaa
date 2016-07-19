@@ -15,8 +15,9 @@ Create a series of prompts for users to create and reply to messages in a twitte
 1. New User Account
 2. Select User
 3. View Chirps
-4. New Chirp
-5. Exit
+4. Public Chirp
+5. Private Chirp
+6. Exit
 >
 ```
 
