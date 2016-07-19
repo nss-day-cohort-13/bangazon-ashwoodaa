@@ -72,11 +72,18 @@ BiffBoffin: The pad krapow is amazing!
 
 ### New Chirp
 Users can chirp publicly or they can start a private chirp with another user.
+
+#### Public
+```bash
+Enter chirp text
+>
+```
+
+#### Private
 ```bash
 Chirp at
-1. Public
-2. BiffBoffin
-3. Lara_keet
+1. BiffBoffin
+2. Lara_keet
 ...
 9. Cancel
 >
