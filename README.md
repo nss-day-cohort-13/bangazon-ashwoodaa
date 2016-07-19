@@ -97,13 +97,17 @@ Enter chirp text
   - Who the chirp is to
   - The text content of the chirp
 
+### Challenge
+[Serialize](https://docs.python.org/3.3/library/pickle.html) the user and chirp data before storage & deserialize on read.
 
 # References
 
 ## How to get started
 
+1. Tests first!
 1. You can use `input()` and `print()` to show prompts and read user input.
 1. You know how to use [`open()`, `readline()` and `write()`](https://docs.python.org/3.3/tutorial/inputoutput.html#reading-and-writing-files) to maniuplate data in text files.
+1. You've worked with [CSV](https://docs.python.org/3.3/library/csv.html) files for data storage.
 1. You can write conditional logic with `if`
 
 Start with the basics
