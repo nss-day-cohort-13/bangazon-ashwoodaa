@@ -103,7 +103,8 @@ Enter chirp text
 3. Chirps will be stored in a text file and should contain at minimum
   - A chirp ID number
   - Who authored the chirp
-  - Who the chirp is to
+  - Is this a public or private chirp
+  - Who the chirp is to (if applicable)
   - The text content of the chirp
 
 ### Challenge
