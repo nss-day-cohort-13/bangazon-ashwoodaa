@@ -20,11 +20,16 @@ Create a series of prompts for users to create and reply to messages in a twitte
 >
 ```
 
+
 ### New User
 ```bash
+Enter full name
+>
+
 Enter screen name
 >
 ```
+
 
 ### Select User
 ```bash
@@ -34,6 +39,7 @@ Which user is chriping?
 ...
 >
 ```
+
 
 ### View Chirps
 Chirps are separated into public and private chirps.  Only the two users involved in a private chirp can see it in their Private Chirps section.
@@ -46,10 +52,10 @@ Chirps are separated into public and private chirps.  Only the two users involve
 4. Tweedleedee: Anybody know a good...
 5. Fuzzy: Do NOT try the mega ultra...
 6. Velton32: You guys have got to s...
-7. more...
-8. Main Menu
+7. Main Menu
 >
 ```
+
 Selecting an individual chirp takes you to that chirp's comment thread.
 ```bash
 Tweedleedee: Anybody know a good Thai restaraunt in the area?
@@ -76,6 +82,21 @@ Chirp at
 Enter chirp text
 >
 ```
+
+
+# Requirements
+
+1. A full test suite with full coverage of all methods
+2. User data will be stored in a text file and should contain at minimum
+  - A user ID number
+  - Screen name
+  - Full name
+3. Chirps will be stored in a text file and should contain at minimum
+  - A chirp ID number
+  - Who authored the chirp
+  - Who the chirp is to
+  - The text content of the chirp
+
 
 # References
 
