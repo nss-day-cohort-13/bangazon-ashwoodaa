@@ -25,7 +25,7 @@ while True:
     print("""\n\n*********************\nWrite a public Chirp.\n*********************\n
       \n\n Which User is Chirping?
       #here is where we would list the registered users
-      \n\nMake your selection: """) #here we would have a options input thing for users
+      \n\nMake your selection: """) #here we would have an options input thing for users
   elif selection == '4':
     print("""\n\n*********************\nWrite a private Chirp.\n*********************\n
       \n\n Chirp at
