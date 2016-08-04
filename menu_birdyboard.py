@@ -20,8 +20,15 @@ while True:
   selection = input("\n\nWhat would you like to do?: ")
   if selection =='1':
     print("\n\n*******************************\nYou chose to create a new user.\n*******************************\n")
+    # print("\n\nEnter your Full Name and Screen Name separated by a comma")
     full_name=input("\n\n Enter Full Name: ")
     screen_name=input("\n\n Enter Screen Name: ")
+    user_dictionary={} #here I declare the dictionary to store the user info that we are going to be putting in a list
+    user_dictionary['full_name']=full_name
+    user_dictionary['screen_name']=screen_name
+    users_list_of_dictionaries.append(user_dictionary)
+    print("users_list_of_dictionaries" + str(users_list_of_dictionaries))
+    print("user_dictionary" + str(user_dictionary)) #printing this just to test it
     print("\n***************************************")
     print("\nYour Full Name is " + full_name + ".")
     print("\nYour Screen Name is " + screen_name + ".")
