@@ -20,19 +20,23 @@ while True:
   selection = input("\n\nWhat would you like to do?: ")
   if selection =='1':
     print("\n\n*******************************\nYou chose to create a new user.\n*******************************\n")
-    # print("\n\nEnter your Full Name and Screen Name separated by a comma")
-    full_name=input("\n\n Enter Full Name: ")
-    screen_name=input("\n\n Enter Screen Name: ")
-    user_dictionary={} #here I declare the dictionary to store the user info that we are going to be putting in a list
-    user_dictionary['full_name']=full_name
-    user_dictionary['screen_name']=screen_name
-    users_list_of_dictionaries.append(user_dictionary)
-    print("users_list_of_dictionaries" + str(users_list_of_dictionaries))
-    print("user_dictionary" + str(user_dictionary)) #printing this just to test it
+    full_name=input("\n\n Enter Full Name: ") #get full name from user and store it in a variable
+    screen_name=input("\n\n Enter Screen Name: ") #get screen name from user and store it in a variable
+    user_dictionary={} #declare dictionary that will store user info and will be appended to users_list_of_dictionaries
+    user_dictionary['full_name']=full_name #adding full name to dictionary with the key being 'full_name'
+    user_dictionary['screen_name']=screen_name #adding screen name to dictionary with the key being 'screen_name'
+    users_list_of_dictionaries.append(user_dictionary) #appending the newly made user as a dictionary to the users_list_of_dictionaries
     print("\n***************************************")
+    print("\n --USER PROFILE--")
     print("\nYour Full Name is " + full_name + ".")
     print("\nYour Screen Name is " + screen_name + ".")
     print("\n***************************************")
+    print("\n***************************************")
+    print("\n --PRINTING TESTS--")
+    print("\ntest printing user_dictionary:  " + str(user_dictionary)) #test printing user dictionary
+    print("\ntest printing users_list_of_dictionaries:  " + str(users_list_of_dictionaries)) #test printing the users_list_of_dictionaries to make sure it is storing everything
+    print("\n***************************************")
+
 
   elif selection == '2':
     print("""\n\n*******************************\nYou chose to view Chirps.\n*******************************\n
