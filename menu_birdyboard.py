@@ -1,6 +1,10 @@
 #here is where I need to put my imports
 #just not sure which ones yet... it's cool. I'll figure it out after a little bit
 
+#making my list of dictionaries to hold Users
+users_list_of_dictionaries=[]
+
+
 while True:
   print("""
  \n*******************************************
@@ -15,9 +19,14 @@ while True:
 
   selection = input("\n\nWhat would you like to do?: ")
   if selection =='1':
-    print("""\n\n*******************************\nYou chose to create a new user.\n*******************************\n
-    \n\n Enter Full Name:
-    \n\n Enter Screen Name: """) #This needs to have inputs
+    print("\n\n*******************************\nYou chose to create a new user.\n*******************************\n")
+    full_name=input("\n\n Enter Full Name: ")
+    screen_name=input("\n\n Enter Screen Name: ")
+    print("\n***************************************")
+    print("\nYour Full Name is " + full_name + ".")
+    print("\nYour Screen Name is " + screen_name + ".")
+    print("\n***************************************")
+
   elif selection == '2':
     print("""\n\n*******************************\nYou chose to view Chirps.\n*******************************\n
       \n\n Here are the Chirps: """) #list public and private chirps
