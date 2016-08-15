@@ -1,21 +1,16 @@
-import unittest
+import uuid
 
 
-class TestUser(unittest.TestCase):
+class User:
+  '''
+    Takes name and screen_name attributes
+    gets uuid for user
+  '''
 
-  @classmethod
-  def setUpClass(self):
-    pass
-
-  def test_user_creation(self):
-    user = User("Tractor Ryan", "tryan")
-    self.assertEqual("Tractor Ryan", user.full_name)
-    self.assertEqual("tryan", user.screen_name)
-    self.assertIsNotNone(user.user_id)
-    self.assertIsInstance(user, User)
-    pass
-
-
+  def __init__(self, name, screen_name):
+          self.name = name
+          self.screen_name = screen_name
+          self.user_uuid = uuid.uuid4()
 
 if __name__ == '__main__':
-    unittest.main()
+  u = User()
